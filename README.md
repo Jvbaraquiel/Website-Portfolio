@@ -162,6 +162,18 @@
             </a>
           </li>
 
+          <li class="social-item">
+            <head>
+              <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+              />
+            </head>
+            <a href="https://github.com/Jvbaraquiel/Website-Portfolio" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+
         </ul>
 
       </div>
@@ -1197,6 +1209,10 @@
     </div>
 
   </main>
+
+
+
+
 
 
   <!--
