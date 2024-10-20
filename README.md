@@ -1,205 +1,1215 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Portfolio</title>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">John Vincent</a>
-                </div>
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="C:\Users\user\Downloads\442491850_859413572872628_6714542910903480883_n.jpg" alt="John Vincent" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="John Vincent">John Vincent</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="johnvincent.baraquiel@lspu.edu.ph" class="contact-link">johnvincent.baraquiel@lspu.edu.ph</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+63 9126496079</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">January 20,2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Paete,Laguna,Philippines</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <head>
+              <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+              />
+            </head>
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+                        
+
+          <li class="social-item">
+            <head>
+              <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+              />
+            </head>
+            <a href="https://www.youtube.com/youtube" target="_blank">
+              <i class="fab fa-youtube"></i>
+            </a>
+
+          <li class="social-item">
+            <head>
+              <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+              />
+            </head>
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
         </header>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">John Vincent</span><br> BSIT student</h1>
+        <section class="about-text">
+          <p>
+            I'm Creative Director and UI/UX Designer from Paete, Laguna, working in web development and print media.
+            I enjoy
+            turning complex problems into simple, beautiful and intuitive designs.
+          </p>
 
-                    <a href="#" class="button">Contact</a>
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="C:\Users\user\Downloads\f24022ea-d07e-42ac-917f-044d1ddf2e9d.jfif" alt="Allan Caballero" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Allan Caballero</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    John Vincent was hired to create a corporate identity. We were very pleased with the work done. he has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
                 </div>
 
-                    <div class="home__social">
-                        <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                        <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                        <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    </div>
+              </div>
+            </li>
 
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="C:\Users\user\Downloads\442491850_859413572872628_6714542910903480883_n.jpg"/>
-                        </g>
-                    </svg>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="C:\Users\user\Downloads\a4f1e60b-fef8-42b1-8437-425dc7c41cbb.jfif" alt="Nathaniel Casicas" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nathaniel Casicas</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    John Vincent was hired to create a corporate identity. We were very pleased with the work done. he has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
                 </div>
-            </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+              </div>
+            </li>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="C:\Users\user\Downloads\442491850_859413572872628_6714542910903480883_n.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am John Vincent</h2>
-                        <p class="about__text">“I’m John Vincent, a graphic designer with over 5 years of experience in creating engaging visuals for brands. My passion lies in bringing ideas to life through design.”</p>           
-                    </div>                                   
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    John Vincent was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
                 </div>
-            </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+              </div>
+            </li>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">I specialize in creating responsive, user-focused websites with expertise in HTML5, CSS3, and JavaScript, while incorporating strong UI/UX principles, SEO optimization, and visually compelling designs using Adobe Creative Suite to deliver fast, accessible, and brand-consistent digital experiences.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    John Vincent was hired to create a corporate identity. We were very pleased with the work done. he has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
                 </div>
-            </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+              </div>
+            </li>
 
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
+          </ul>
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+        </section>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">John Vincent</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
-        </footer>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--
+          - clients
+        -->
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Laguna State Polytechnic University</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Luis C. Obial Senior High school</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                SSG OFFICER SENIOR HIGH SCHOOL (PIO)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Poten and Eliseo M Quesada Memorial national High school</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                Achiever (Grade 10)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Paete Elementary school</h4>
+
+              <span>2008 — 2015</span>
+
+              <p class="timeline-text">
+                Achiever
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43717.11768046451!2d121.49583045206437!3d14.422332826739801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397fa86b74668a7%3A0xdf4cf4966eb8bbcc!2sPaete%2C%20Laguna!5e0!3m2!1sen!2sph!4v1729423604198!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
